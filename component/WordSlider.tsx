@@ -11,7 +11,7 @@ const arrayOfWords = [
   'Him!',
   'Amazing!',
   'Terrific!',
-  '',
+  'Broke!',
 ];
 
 const WordSlider = () => {
