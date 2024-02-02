@@ -1,5 +1,6 @@
 'use client';
 import WordSlider from '@/component/WordSlider';
+import {Link} from "react-router-dom"
 
 const Home = () => {
   return (
@@ -11,6 +12,8 @@ const Home = () => {
           <WordSlider />
         </span>
       </div>
+
+      <h2 className="">Want to use in your project? check it out<span><Link>&nbsp;here<Link to="https://www.npmjs.com/package/swipe-animate" target="_blank"></span></h2>
     </div>
   );
 };
