@@ -1,7 +1,7 @@
 'use client';
 import WordSlider from '@/component/WordSlider';
-import {Link} from "react-router-dom"
-
+import Link  from "next/link"
+  
 const Home = () => {
   return (
     <div className='w-full h-screen flex items-center justify-center'>
@@ -13,7 +13,7 @@ const Home = () => {
         </span>
       </div>
 
-      <h2 className="">Want to use in your project? check it out<span><Link>&nbsp;here<Link to="https://www.npmjs.com/package/swipe-animate" target="_blank"></span></h2>
+      <h2 className="">Want to use in your project? check it out<span><Link>&nbsp;here<Link href="https://www.npmjs.com/package/swipe-animate" target="_blank"></span></h2>
     </div>
   );
 };
